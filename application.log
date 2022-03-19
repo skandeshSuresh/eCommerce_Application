@@ -315,3 +315,5 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 2022-03-19 20:53:57.814  INFO 28648 --- [http-nio-8070-exec-6] c.e.demo.controllers.CartController      : Adding item to the cart of user skandesh
 2022-03-19 20:54:50.038  INFO 28648 --- [http-nio-8070-exec-7] c.e.demo.controllers.OrderController     : Submitting order for user skandesh
 2022-03-19 21:00:42.017  INFO 28648 --- [http-nio-8070-exec-10] c.e.demo.controllers.OrderController     : Finding all the orders for user skandesh in the repository
+2022-03-19 21:56:53.747  WARN 28648 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m1s678ms196µs900ns).
+2022-03-19 22:17:02.344  WARN 28648 --- [http-nio-8070-exec-1] c.e.demo.controllers.OrderController     : User with username shandy doesn't exist
