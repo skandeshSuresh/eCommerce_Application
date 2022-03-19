@@ -12,7 +12,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.ResponseEntity;
 
@@ -66,7 +65,7 @@ public class CartControllerTest {
         assertEquals(200, response.getStatusCodeValue());
 
         assertNotNull(response.getBody());
-        assertTrue(cart.getItems().contains(item));
+        assertTrue(response.getBody().getItems().contains(item));
         log.info("item has been added to the cart successfully");
     }
 
