@@ -52,10 +52,10 @@ public class UserController {
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
 		Cart cart = new Cart();
-		log.info("Username set with:", createUserRequest.getUsername());
+		log.info("Username set with:"+createUserRequest.getUsername());
 
 		if (createUserRequest.getPassword().length() < 5 || !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
-			log.info("Cannot create user with the following username:", createUserRequest.getUsername());
+			log.info("Cannot create user with the following username:"+createUserRequest.getUsername());
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
