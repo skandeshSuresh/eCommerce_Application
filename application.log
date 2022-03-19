@@ -1,0 +1,69 @@
+2022-03-19 14:02:52.273  INFO 29508 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on MSI with PID 29508 (started by badshah in C:\Users\badshah\Desktop\Phenom\Java Web Developement\projects\nd035-c4-Security-and-DevOps-master\starter_code)
+2022-03-19 14:02:52.275  INFO 29508 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2022-03-19 14:02:53.425  INFO 29508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-19 14:02:53.613  INFO 29508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157ms. Found 4 repository interfaces.
+2022-03-19 14:02:54.244  INFO 29508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d36ddf8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-19 14:02:54.499  INFO 29508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-19 14:02:54.754  INFO 29508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-19 14:02:54.901  INFO 29508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-19 14:02:55.087  INFO 29508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2022-03-19 14:02:55.090  INFO 29508 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-03-19 14:02:55.179  INFO 29508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-19 14:02:55.478  INFO 29508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-19 14:02:56.249  INFO 29508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 14:02:57.476  WARN 29508 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-19 14:02:57.714  INFO 29508 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c4a5ef2, org.springframework.security.web.context.SecurityContextPersistenceFilter@22e95960, org.springframework.security.web.header.HeaderWriterFilter@4bc9451b, org.springframework.web.filter.CorsFilter@299dd381, org.springframework.security.web.authentication.logout.LogoutFilter@7bfc36d5, com.example.demo.securityconfig.JWTAuthenticationFilter@34d3409d, com.example.demo.securityconfig.JWTAuthenticationVerificationFilter@16732340, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74026b18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4270705f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38e052b2, org.springframework.security.web.session.SessionManagementFilter@77978658, org.springframework.security.web.access.ExceptionTranslationFilter@542beecb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@641cea11]
+2022-03-19 14:02:58.404  INFO 29508 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-19 14:02:58.969  INFO 29508 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 6.997 seconds (JVM running for 8.795)
+2022-03-19 14:02:59.040  INFO 29508 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-19 14:02:59.046  INFO 29508 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 14:02:59.050  INFO 29508 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-19 14:02:59.055  INFO 29508 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-19 14:44:55.883  INFO 33124 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on MSI with PID 33124 (started by badshah in C:\Users\badshah\Desktop\Phenom\Java Web Developement\projects\eCommerce_Application)
+2022-03-19 14:44:55.886  INFO 33124 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2022-03-19 14:44:56.876  INFO 33124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-19 14:44:56.984  INFO 33124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 4 repository interfaces.
+2022-03-19 14:44:57.808  INFO 33124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a563ae24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-19 14:44:58.199  INFO 33124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-19 14:44:58.438  INFO 33124 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-19 14:44:58.553  INFO 33124 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-19 14:44:58.680  INFO 33124 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2022-03-19 14:44:58.683  INFO 33124 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-03-19 14:44:58.751  INFO 33124 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-19 14:44:59.022  INFO 33124 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-19 14:44:59.943  INFO 33124 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 14:45:01.255  WARN 33124 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-19 14:45:01.448  INFO 33124 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1be12e05, org.springframework.security.web.context.SecurityContextPersistenceFilter@15549dd7, org.springframework.security.web.header.HeaderWriterFilter@64eb14da, org.springframework.web.filter.CorsFilter@66ab088c, org.springframework.security.web.authentication.logout.LogoutFilter@5357de0e, com.example.demo.securityconfig.JWTAuthenticationFilter@5d01a2eb, com.example.demo.securityconfig.JWTAuthenticationVerificationFilter@6fe337a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29d81c22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46b55a0e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d60bd5a, org.springframework.security.web.session.SessionManagementFilter@716eae1, org.springframework.security.web.access.ExceptionTranslationFilter@1b96d447, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@575fe6da]
+2022-03-19 14:45:02.133  INFO 33124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-19 14:45:02.585  INFO 33124 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 7.178 seconds (JVM running for 9.825)
+2022-03-19 14:45:02.638  INFO 33124 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-19 14:45:02.640  INFO 33124 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 14:45:02.643  INFO 33124 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-19 14:45:02.647  INFO 33124 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-19 14:46:27.036  INFO 34676 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on MSI with PID 34676 (started by badshah in C:\Users\badshah\Desktop\Phenom\Java Web Developement\projects\eCommerce_Application)
+2022-03-19 14:46:27.038  INFO 34676 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2022-03-19 14:46:28.019  INFO 34676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-19 14:46:28.132  INFO 34676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 4 repository interfaces.
+2022-03-19 14:46:29.054  INFO 34676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abcaf504] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-19 14:46:29.406  INFO 34676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-19 14:46:29.660  INFO 34676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-19 14:46:29.772  INFO 34676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-03-19 14:46:29.905  INFO 34676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2022-03-19 14:46:29.908  INFO 34676 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-03-19 14:46:29.986  INFO 34676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-03-19 14:46:30.273  INFO 34676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-19 14:46:31.128  INFO 34676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 14:46:32.201  WARN 34676 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-19 14:46:32.399  INFO 34676 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e965426, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cc9a948, org.springframework.security.web.header.HeaderWriterFilter@54a5799f, org.springframework.web.filter.CorsFilter@575fe6da, org.springframework.security.web.authentication.logout.LogoutFilter@15549dd7, com.example.demo.securityconfig.JWTAuthenticationFilter@149238fe, com.example.demo.securityconfig.JWTAuthenticationVerificationFilter@a0bdbe2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a2b3aff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63846fa4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@261099e1, org.springframework.security.web.session.SessionManagementFilter@54b96813, org.springframework.security.web.access.ExceptionTranslationFilter@7488c183, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5382a35f]
+2022-03-19 14:46:33.167  INFO 34676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-19 14:46:33.615  INFO 34676 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 7.05 seconds (JVM running for 9.781)
+2022-03-19 14:46:33.665  INFO 34676 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-19 14:46:33.667  INFO 34676 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 14:46:33.669  INFO 34676 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-19 14:46:33.674  INFO 34676 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
